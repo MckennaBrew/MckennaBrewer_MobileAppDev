@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Pride_Prejudice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pride and Prejudice" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sFM-H4-lIK">
+                                <rect key="frame" x="91.5" y="64" width="231.5" height="33.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Pemberly" translatesAutoresizingMaskIntoConstraints="NO" id="LoN-7m-Ics">
+                                <rect key="frame" x="50" y="206.5" width="314" height="275"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="500" id="Gns-LR-xdE"/>
+                                    <constraint firstAttribute="width" secondItem="LoN-7m-Ics" secondAttribute="height" multiplier="167:111" constant="-100" id="ReG-vK-m8T"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="333" id="q6x-Zy-c61"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="82" translatesAutoresizingMaskIntoConstraints="NO" id="Uor-Cb-TJA">
+                                <rect key="frame" x="78.5" y="137.5" width="257" height="39"/>
+                                <subviews>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LVr-mG-kGE">
+                                        <rect key="frame" x="0.0" y="0.0" width="87" height="39"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                        <state key="normal" title="Mr.Darcy">
+                                            <color key="titleColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="chooseArt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rza-fA-W23"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AwX-db-Dq3">
+                                        <rect key="frame" x="169" y="0.0" width="88" height="39"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                        <state key="normal" title="Elizabeth">
+                                            <color key="titleColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="chooseArt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NUh-gw-BbP"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IOS-90-MSd">
+                                <rect key="frame" x="207" y="501.5" width="0.0" height="0.0"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="300" id="QVK-Rk-ILy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="IOS-90-MSd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1mP-KB-Y4o"/>
+                            <constraint firstItem="sFM-H4-lIK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="E86-p7-1Nf"/>
+                            <constraint firstItem="LoN-7m-Ics" firstAttribute="top" secondItem="Uor-Cb-TJA" secondAttribute="bottom" constant="30" id="FHw-kq-oUB"/>
+                            <constraint firstItem="Uor-Cb-TJA" firstAttribute="top" secondItem="sFM-H4-lIK" secondAttribute="bottom" constant="40" id="QZq-XF-xZl"/>
+                            <constraint firstItem="Uor-Cb-TJA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RL0-r2-tPF"/>
+                            <constraint firstItem="IOS-90-MSd" firstAttribute="top" secondItem="LoN-7m-Ics" secondAttribute="bottom" constant="20" id="Tcq-2H-5bd"/>
+                            <constraint firstItem="sFM-H4-lIK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Tqa-kv-Dwh"/>
+                            <constraint firstItem="LoN-7m-Ics" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fFw-Kh-xOk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="LoN-7m-Ics" secondAttribute="bottom" constant="10" id="ll5-sj-2lf"/>
+                            <constraint firstItem="LoN-7m-Ics" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" constant="-100" id="wev-Od-fc7"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="artImage" destination="LoN-7m-Ics" id="dWG-nl-bRZ"/>
+                        <outlet property="quoteText" destination="IOS-90-MSd" id="Tpv-0U-JBa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="114.50892857142857"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Pemberly" width="166.66667175292969" height="111"/>
+    </resources>
+</document>
