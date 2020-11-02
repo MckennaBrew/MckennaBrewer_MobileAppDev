@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Astrologer</string>
+    <string name="buttonText">Calculate</string>
+    <string name="editDate">Enter Birthdate (ex 1.3 or 8.22)</string>
+</resources>
