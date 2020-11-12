@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">IceCreamSundae</string>
+    <string name="scoop1Button">1 scoop</string>
+    <string name="scoop2Button">2 scoops</string>
+    <string name="scoop3Button">3 scoops</string>
+    <string name="iceCreamHeader">Ice Cream Sundae Maker</string>
+    <string name="flavorLabel">Flavor: </string>
+    <string name="nutsCheck">nuts</string>
+    <string name="sprinkleCheck">sprinkles</string>
+    <string name="chocchipCheck">choc. chips</string>
+    <string name="candyCheck"><![CDATA[M&Ms]]></string>
+    <string name="fudgeCheck">chocolate fudge</string>
+    <string name="caramelCheck">caramel</string>
+    <string name="bsCheck">butterscotch</string>
+    <string name="whipSwitch">whip cream</string>
+    <string name="cherrySwitch">cherry</string>
+    <string name="makeButton">make!</string>
+    <string-array name="flavor">
+        <item> vanilla</item>
+        <item>chocolate</item>
+        <item>strawberry</item>
+        <item>coffee</item>
+        <item>cookies &amp; cream</item>
+    </string-array>
+</resources>
