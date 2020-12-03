@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">Tarot Reader</string>
+    <string name="editDate">enter date of birth</string>
+    <string name="card1Reading">1 card</string>
+    <string name="card2Reading">2 card</string>
+    <string name="card3Reading">3 card</string>
+    <string name="loveTopic">Love</string>
+    <string name="careerTopic">Career</string>
+    <string name="dailyTopic">Daily</string>
+    <string name="readButton">Read Tarot</string>
+    <string name="heading">Tarot Reader</string>
+    <string name="subHeader1">Reading Type</string>
+    <string name="subHeader2">Reading Topic</string>
+    <string name="title_activity_reading">reading</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <!-- Cards - Titles -->
+    <string-array name="cardTitles">
+        <item>The World</item>
+        <item>The Wheel of Fortune</item>
+        <item>The Tower</item>
+        <item>Temperance</item>
+        <item>The Sun</item>
+        <item>Strength</item>
+        <item>The Star</item>
+        <item>The Moon</item>
+        <item>The Magician</item>
+        <item>The Lovers</item>
+        <item>Justice</item>
+        <item>Judgement</item>
+        <item>The High Priestess</item>
+        <item>The Hierophant</item>
+        <item>The Hermit</item>
+        <item>The Hanged Man</item>
+        <item>The Fool</item>
+        <item>The Empress</item>
+        <item>The Emperor</item>
+        <item>The Devil</item>
+        <item>Death</item>
+        <item>The Chariot</item>
+    </string-array>
+
+    <!-- Cards - Love Topic-->
+    <string-array name="cardsLove">
+        <item>You are feeling fulfilled and loved, whether thats with yourself, a significant other, family members, or friendships.</item>
+        <item>There may be some unexpected changes coming in your love life, so be prepared to accommodate and stay positive.</item>
+        <item>There is a great change coming in your relationships, it might be painful but it will allow you to rebuild yourself better than before.</item>
+        <item>Consider your actions when it comes to love and how they may be too excessive.</item>
+        <item>Bask in the happiness that your relationships bring you.</item>
+        <item>You may be in a caring and passionate relationship, but be careful of emotions like jealousy and anger.</item>
+        <item>Right now is a time of healing. Have hope that things will improve.</item>
+        <item>You are feeling uncertain about your relationships, be sure to understand your intentions and the intentions of others.</item>
+        <item>Create opportunities for love and you will find it.</item>
+        <item>Take some time to find balance in your relationships.</item>
+        <item>Treat the people you love fairly, and remember to make compromises.</item>
+        <item>Consider reflecting on the issues in your relationships and how you can improve them.</item>
+        <item>Remain patient and honest in your relationships.</item>
+        <item>Remember to treat your partners with love and respect.</item>
+        <item>You should consider taking some time alone before taking on a relationship.</item>
+        <item>Dont rush into a relationship, or force something to happen.</item>
+        <item>You are embarking on a new journey in love. Take risks and be bold.</item>
+        <item>Remember to be nurturing and caring in your relationships.</item>
+        <item>Bring logic to your relationship.</item>
+        <item>You or someone around you may be feeling tempted, so make sure you communicate your intentions to others.</item>
+        <item>Learn to accommodate changes in your romantic life.</item>
+        <item>Take control of your love life and you will see rewards.</item>
+    </string-array>
+
+    <!-- Cards - Career Topic -->
+    <string-array name="cardsCareer">
+        <item>You are about to complete a major career challenge, so enjoy your hard work and celebrate your success!</item>
+        <item>You may be considering a switch in your career, and now is the time to go for it.</item>
+        <item>Right now you may be very stressed and there are many unknowns surrounding you. Remember that in the long term, these issues may lead to opportunities.</item>
+        <item>Success is coming for you, but you must be patient and stay dedicated.</item>
+        <item>Continued positivity will bring you success, dont be down on yourself.</item>
+        <item>Harness your passion and use it to make big career moves.</item>
+        <item>Remain positive about the path you are on. You will achieve your goals as long as you focus on them.</item>
+        <item>You may be feeling unsure about what direction to go in your career.</item>
+        <item>Take advantage of the opportunities around you.</item>
+        <item>Your work relationships are important, make sure to maintain them.</item>
+        <item>Act with honesty and take responsibility for your actions.</item>
+        <item>You are learning a lot of new things about yourself that could be helpful in your future career.</item>
+        <item>Try and take some time to learn new things that will benefit your work.</item>
+        <item>You need to work with others and collaborate to accomplish your goals.</item>
+        <item>Make sure to keep your long term goals in mind, and pursue what makes you happy.</item>
+        <item>You may be in a period of waiting in your career, so take time to plan ahead.</item>
+        <item>New beginnings are on the way, so be courageous and take the opportunities you are presented with.</item>
+        <item>You are feeling more passionate than usual, try to funnel that into your work.</item>
+        <item>You have been working hard, so stay disciplined and you will be rewarded.</item>
+        <item>You may be feeling chained down, and blaming it on others, but you have more options than you realize.</item>
+        <item>You may be going through a career transition, so remember that change is good and healthy.</item>
+        <item>Steer clear of distractions and focus on completing your goals.</item>
+    </string-array>
+
+    <!-- Cards - Daily Topic-->
+    <string-array name="cardsDaily">
+        <item>Today will be a harmonious day.</item>
+        <item>Accepting the inevitable is a part of life.</item>
+        <item>You may be feeling like things are falling apart, but remember, in order to grow, change must occur.</item>
+        <item>In times of stress, remember to stay calm and be patient with yourself.</item>
+        <item>Try and stay positive today. You shine, be proud of that.</item>
+        <item>Today you can accomplish anything you put your mind to.</item>
+        <item>Be confident today, and keep on trekking.</item>
+        <item>Be aware of whats causing your current anxieties and work on overcoming it.</item>
+        <item>Its time to tap into your full potential.</item>
+        <item>Take time to appreciate your relationships.</item>
+        <item>Remember that what you give out to the world, comes back to you.</item>
+        <item>Today, take the time to self-reflect and find new meaning.</item>
+        <item>Listen to your gut instinct and you will find the answers you seek.</item>
+        <item>Following tradition isnt always a bad thing.</item>
+        <item>Take time to do some soul searching today.</item>
+        <item>Its OK to take a step back sometimes, if it brings success in the future.</item>
+        <item>Have courage to take risks and you will be rewarded.</item>
+        <item>Be kind to yourself. Self care is extremely important.</item>
+        <item>Your goals present you with a chance to grow, so dont give up on them.</item>
+        <item>Try and direct your impulsive energy and actions towards more positive things.</item>
+        <item>You are going through a major change, embrace the future and let go of the past.</item>
+        <item>Take control of your life and remain focused on completing what needs to be done.</item>
+    </string-array>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
